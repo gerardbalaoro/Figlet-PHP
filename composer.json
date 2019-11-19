@@ -1,0 +1,20 @@
+{
+    "name": "gerardbalaoro/figlet-php",
+    "description": "Figlet Text Generator for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gerard Balaoro",
+            "email": "gmbalaoro@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Figlet\\": "src/"
+        }
+    },
+    "require": {
+        "zendframework/zend-stdlib": "^3.0"
+    }
+}
